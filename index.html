@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>慕课网</title>
+    <link rel="shortcut icon" href="./img/bitbug_favicon.ico" />
+<link rel="stylesheet" href="./layui/css/layui.css">   
+<link rel="stylesheet" href="./css/index.css">
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="./layui/layui.js"></script>
+<script src="./js/index.js"></script>
+</head>
+<body>
+    <nav class="nav_wrap">
+        <div class="nav">
+            <div class="logo">
+                <a href="http://imooc.com">
+                    <img src="./img/index/logo.png" alt="">
+                </a>
+            </div>
+            <div class="login_area">
+                <span class="load_app"> <span>下载APP</span>       </span>
+                <button class="shopping">
+                    <i class="car"><img src="./img/common/cart-1.svg" alt=""></i><span>购物车 </span><i class="spacing">0</i>
+                    <div class="car_hidden ">
+                      <span>  购物车空空如也~~~</span>
+                      <p>快去挑选吧</p>
+                      <i class="layui-icon layui-icon-cart-simple" style="font-size: 95px;color: bisque"></i>
+                    </div>
+                </button>
+                <span class="tixing">
+                    <i>
+                        <img src="./img/common/lights.svg" alt="">
+                    </i>
+                </span>
+                <span class="user_info">
+                    <i>
+                        <img src="./img/common/_B9$(4ONGCDN(S4LXAE0MPR.png" alt="">
+                    </i>
+                </span>
+            </div>
+           <div class="nav_content">
+               <ul>
+                    <li><a href="#">免费课程</a></li>
+                    <li><a href="#">职业路径</a></li>
+                    <li><a href="#">实战</a></li>
+                    <li><a href="#">猿问</a></li>
+                    <li><a href="#">手记</a></li>
+               </ul>
+           </div>
+           <div class="serach">
+                <input id="text_focus" type="text">
+                <span class="icon icon1">前端开发</span>
+                <span class="icon icon2">后端开发</span>
+                <i class="layui-icon layui-icon-search"></i>
+            </div>   
+        </div>
+        
+    </nav>
+   <div class="banner-wrap">
+       <div class="banner">
+           <div class="containor">
+           <div class="banner_left">
+               <ul>
+                   <li data-id="1">    <a href="#"> 前端开发<i><img src="./img//common//more.svg" alt=""></i></a>  </li>
+                   <li data-id="2"> <a href=""> 后端开发<i><img src="./img//common//more.svg" alt=""></i></a>  </li>
+                   <li data-id="3"> <a href="">移动开发<i><img src="./img//common//more.svg" alt=""></i></a> </li>
+                   <li data-id="4">    <a href="#"> 数据库<i><img src="./img//common//more.svg" alt=""></i></a>  </li>
+                   <li data-id="5"> <a href="">云计算&大数据<i><img src="./img//common//more.svg" alt=""></i></a>  </li>
+                   <li data-id="6"> <a href="">运维&测试<i><img src="./img//common//more.svg" alt=""></i></a> </li>
+                   <li data-id="7">    <a href="#"> UI设计<i><img src="./img//common//more.svg" alt=""></i></a>  </li>
+                   </ul>
+           </div>
+           <div class="banner_right">
+                <div class="sub hide" data-id="1">
+                <div class="hover_wrap">
+                        <div class="hover_top">
+                                  <p>基础</p>
+                                  <span class="hr"></span>
+                                  <span class="text_hover">HTML CSS JavaScript JQuery</span> 
+                                  <p>进阶</p>
+                                  <span class="hr2"></span>
+                                  <span class="text_hover">Html5 CSS3 Node.js AngularJS Bootstrap React Sass/Less Vue.js WebApp</span>
+                        </div>
+                        <div class="hover_bottom">
+                            <div class="img_wrap">
+                                <div class="img">
+                                    <img src="./img/index/hover_img.jpg" alt="">
+                                    <div class="desc_wrap">
+                                    <span>一招搞定JS</span>
+                                    <span>实战  基础   880人</span>     
+                                    <span>￥998</span>    
+                                   </div>
+                                </div>
+                                <div class="img">
+                                        <img src="./img/index/hover_img.jpg" alt="">
+                                        <div class="desc_wrap">
+                                        <span>一招搞定JS</span>
+                                        <span>实战  基础   880人</span>     
+                                        <span>￥998</span>    
+                                       </div>
+                                    </div>
+                                    <div class="img">
+                                            <img src="./img/index/hover_img.jpg" alt="">
+                                            <div class="desc_wrap">
+                                            <span>一招搞定JS</span>
+                                            <span>实战  基础   880人</span>     
+                                            <span>￥998</span>    
+                                           </div>
+                                        </div>
+                                        <div class="img">
+                                                <img src="./img/index/hover_img.jpg" alt="">
+                                                <div class="desc_wrap">
+                                                <span>一招搞定JS</span>
+                                                <span>实战  基础   880人</span>     
+                                                <span>￥998</span>    
+                                               </div>
+                                            </div>
+                                            <div class="img">
+                                                    <img src="./img/index/hover_img.jpg" alt="">
+                                                    <div class="desc_wrap">
+                                                    <span>一招搞定JS</span>
+                                                    <span>实战  基础   880人</span>     
+                                                    <span>￥998</span>    
+                                                   </div>
+                                                </div>
+                                                <div class="img">
+                                                        <img src="./img/index/hover_img.jpg" alt="">
+                                                        <div class="desc_wrap">
+                                                        <span>一招搞定JS</span>
+                                                        <span>实战  基础   880人</span>     
+                                                        <span>￥998</span>    
+                                                       </div>
+                                                    </div>
+                            </div>
+                            </div>
+                        </div>
+           </div>
+           <div class="sub hide" data-id="2">
+                <div class="hover_wrap">
+                        <div class="hover_top">
+                                  <p>全部</p>
+                                  <span class="hr"></span>
+                                  <span class="text_hover">PHP Java SpringBoot Python C C++ Go C# Ruby</span> 
+                        </div>
+                        <div class="hover_bottom">
+                            <div class="img_wrap">
+                                <div class="img">
+                                    <img src="./img/index/hover_img.jpg" alt="">
+                                    <div class="desc_wrap">
+                                    <span>一招搞定JS</span>
+                                    <span>实战  基础   880人</span>     
+                                    <span>￥998</span>    
+                                   </div>
+                                </div>
+                                <div class="img">
+                                        <img src="./img/index/hover_img.jpg" alt="">
+                                        <div class="desc_wrap">
+                                        <span>一招搞定JS</span>
+                                        <span>实战  基础   880人</span>     
+                                        <span>￥998</span>    
+                                       </div>
+                                    </div>
+                                    <div class="img">
+                                            <img src="./img/index/hover_img.jpg" alt="">
+                                            <div class="desc_wrap">
+                                            <span>一招搞定JS</span>
+                                            <span>实战  基础   880人</span>     
+                                            <span>￥998</span>    
+                                           </div>
+                                        </div>
+                                        <div class="img">
+                                                <img src="./img/index/hover_img.jpg" alt="">
+                                                <div class="desc_wrap">
+                                                <span>一招搞定JS</span>
+                                                <span>实战  基础   880人</span>     
+                                                <span>￥998</span>    
+                                               </div>
+                                            </div>
+                                            <div class="img">
+                                                    <img src="./img/index/hover_img.jpg" alt="">
+                                                    <div class="desc_wrap">
+                                                    <span>一招搞定JS</span>
+                                                    <span>实战  基础   880人</span>     
+                                                    <span>￥998</span>    
+                                                   </div>
+                                                </div>
+                                                <div class="img">
+                                                        <img src="./img/index/hover_img.jpg" alt="">
+                                                        <div class="desc_wrap">
+                                                        <span>一招搞定JS</span>
+                                                        <span>实战  基础   880人</span>     
+                                                        <span>￥998</span>    
+                                                       </div>
+                                                    </div>
+                            </div>
+                            </div>
+                        </div>
+           </div>
+           <div class="sub hide" data-id="3">
+                <div class="hover_wrap">
+                        <div class="hover_top">
+                                  <p>基础</p>
+                                  <span class="hr"></span>
+                                  <span class="text_hover">HTML CSS JavaScript JQuery</span> 
+                                  <p>进阶</p>
+                                  <span class="hr2"></span>
+                                  <span class="text_hover">Html5 CSS3 Node.js AngularJS Bootstrap React Sass/Less Vue.js WebApp</span>
+                        </div>
+                        <div class="hover_bottom">
+                            <div class="img_wrap">
+                                <div class="img">
+                                    <img src="./img/index/hover_img.jpg" alt="">
+                                    <div class="desc_wrap">
+                                    <span>一招搞定JS</span>
+                                    <span>实战  基础   880人</span>     
+                                    <span>￥998</span>    
+                                   </div>
+                                </div>
+                                <div class="img">
+                                        <img src="./img/index/hover_img.jpg" alt="">
+                                        <div class="desc_wrap">
+                                        <span>一招搞定JS</span>
+                                        <span>实战  基础   880人</span>     
+                                        <span>￥998</span>    
+                                       </div>
+                                    </div>
+                                    <div class="img">
+                                            <img src="./img/index/hover_img.jpg" alt="">
+                                            <div class="desc_wrap">
+                                            <span>一招搞定JS</span>
+                                            <span>实战  基础   880人</span>     
+                                            <span>￥998</span>    
+                                           </div>
+                                        </div>
+                                        <div class="img">
+                                                <img src="./img/index/hover_img.jpg" alt="">
+                                                <div class="desc_wrap">
+                                                <span>一招搞定JS</span>
+                                                <span>实战  基础   880人</span>     
+                                                <span>￥998</span>    
+                                               </div>
+                                            </div>
+                                            <div class="img">
+                                                    <img src="./img/index/hover_img.jpg" alt="">
+                                                    <div class="desc_wrap">
+                                                    <span>一招搞定JS</span>
+                                                    <span>实战  基础   880人</span>     
+                                                    <span>￥998</span>    
+                                                   </div>
+                                                </div>
+                                                <div class="img">
+                                                        <img src="./img/index/hover_img.jpg" alt="">
+                                                        <div class="desc_wrap">
+                                                        <span>一招搞定JS</span>
+                                                        <span>实战  基础   880人</span>     
+                                                        <span>￥998</span>    
+                                                       </div>
+                                                    </div>
+                            </div>
+                            </div>
+                        </div>
+           </div>
+           <div class="sub hide" data-id="4">
+                <div class="hover_wrap">
+                        <div class="hover_top">
+                                  <p>基础</p>
+                                  <span class="hr"></span>
+                                  <span class="text_hover">HTML CSS JavaScript JQuery</span> 
+                                  <p>进阶</p>
+                                  <span class="hr2"></span>
+                                  <span class="text_hover">Html5 CSS3 Node.js AngularJS Bootstrap React Sass/Less Vue.js WebApp</span>
+                        </div>
+                        <div class="hover_bottom">
+                            <div class="img_wrap">
+                                <div class="img">
+                                    <img src="./img/index/hover_img.jpg" alt="">
+                                    <div class="desc_wrap">
+                                    <span>一招搞定JS</span>
+                                    <span>实战  基础   880人</span>     
+                                    <span>￥998</span>    
+                                   </div>
+                                </div>
+                                <div class="img">
+                                        <img src="./img/index/hover_img.jpg" alt="">
+                                        <div class="desc_wrap">
+                                        <span>一招搞定JS</span>
+                                        <span>实战  基础   880人</span>     
+                                        <span>￥998</span>    
+                                       </div>
+                                    </div>
+                                    <div class="img">
+                                            <img src="./img/index/hover_img.jpg" alt="">
+                                            <div class="desc_wrap">
+                                            <span>一招搞定JS</span>
+                                            <span>实战  基础   880人</span>     
+                                            <span>￥998</span>    
+                                           </div>
+                                        </div>
+                                        <div class="img">
+                                                <img src="./img/index/hover_img.jpg" alt="">
+                                                <div class="desc_wrap">
+                                                <span>一招搞定JS</span>
+                                                <span>实战  基础   880人</span>     
+                                                <span>￥998</span>    
+                                               </div>
+                                            </div>
+                                            <div class="img">
+                                                    <img src="./img/index/hover_img.jpg" alt="">
+                                                    <div class="desc_wrap">
+                                                    <span>一招搞定JS</span>
+                                                    <span>实战  基础   880人</span>     
+                                                    <span>￥998</span>    
+                                                   </div>
+                                                </div>
+                                                <div class="img">
+                                                        <img src="./img/index/hover_img.jpg" alt="">
+                                                        <div class="desc_wrap">
+                                                        <span>一招搞定JS</span>
+                                                        <span>实战  基础   880人</span>     
+                                                        <span>￥998</span>    
+                                                       </div>
+                                                    </div>
+                            </div>
+                            </div>
+                        </div>
+           </div>
+           <div class="sub hide" data-id="5">
+                <div class="hover_wrap">
+                        <div class="hover_top">
+                                  <p>基础</p>
+                                  <span class="hr"></span>
+                                  <span class="text_hover">HTML CSS JavaScript JQuery</span> 
+                                  <p>进阶</p>
+                                  <span class="hr2"></span>
+                                  <span class="text_hover">Html5 CSS3 Node.js AngularJS Bootstrap React Sass/Less Vue.js WebApp</span>
+                        </div>
+                        <div class="hover_bottom">
+                            <div class="img_wrap">
+                                <div class="img">
+                                    <img src="./img/index/hover_img.jpg" alt="">
+                                    <div class="desc_wrap">
+                                    <span>一招搞定JS</span>
+                                    <span>实战  基础   880人</span>     
+                                    <span>￥998</span>    
+                                   </div>
+                                </div>
+                                <div class="img">
+                                        <img src="./img/index/hover_img.jpg" alt="">
+                                        <div class="desc_wrap">
+                                        <span>一招搞定JS</span>
+                                        <span>实战  基础   880人</span>     
+                                        <span>￥998</span>    
+                                       </div>
+                                    </div>
+                                    <div class="img">
+                                            <img src="./img/index/hover_img.jpg" alt="">
+                                            <div class="desc_wrap">
+                                            <span>一招搞定JS</span>
+                                            <span>实战  基础   880人</span>     
+                                            <span>￥998</span>    
+                                           </div>
+                                        </div>
+                                        <div class="img">
+                                                <img src="./img/index/hover_img.jpg" alt="">
+                                                <div class="desc_wrap">
+                                                <span>一招搞定JS</span>
+                                                <span>实战  基础   880人</span>     
+                                                <span>￥998</span>    
+                                               </div>
+                                            </div>
+                                            <div class="img">
+                                                    <img src="./img/index/hover_img.jpg" alt="">
+                                                    <div class="desc_wrap">
+                                                    <span>一招搞定JS</span>
+                                                    <span>实战  基础   880人</span>     
+                                                    <span>￥998</span>    
+                                                   </div>
+                                                </div>
+                                                <div class="img">
+                                                        <img src="./img/index/hover_img.jpg" alt="">
+                                                        <div class="desc_wrap">
+                                                        <span>一招搞定JS</span>
+                                                        <span>实战  基础   880人</span>     
+                                                        <span>￥998</span>    
+                                                       </div>
+                                                    </div>
+                            </div>
+                            </div>
+                        </div>
+           </div>
+           <div class="sub hide" data-id="6">
+                <div class="hover_wrap">
+                        <div class="hover_top">
+                                  <p>基础</p>
+                                  <span class="hr"></span>
+                                  <span class="text_hover">HTML CSS JavaScript JQuery</span> 
+                                  <p>进阶</p>
+                                  <span class="hr2"></span>
+                                  <span class="text_hover">Html5 CSS3 Node.js AngularJS Bootstrap React Sass/Less Vue.js WebApp</span>
+                        </div>
+                        <div class="hover_bottom">
+                            <div class="img_wrap">
+                                <div class="img">
+                                    <img src="./img/index/hover_img.jpg" alt="">
+                                    <div class="desc_wrap">
+                                    <span>一招搞定JS</span>
+                                    <span>实战  基础   880人</span>     
+                                    <span>￥998</span>    
+                                   </div>
+                                </div>
+                                <div class="img">
+                                        <img src="./img/index/hover_img.jpg" alt="">
+                                        <div class="desc_wrap">
+                                        <span>一招搞定JS</span>
+                                        <span>实战  基础   880人</span>     
+                                        <span>￥998</span>    
+                                       </div>
+                                    </div>
+                                    <div class="img">
+                                            <img src="./img/index/hover_img.jpg" alt="">
+                                            <div class="desc_wrap">
+                                            <span>一招搞定JS</span>
+                                            <span>实战  基础   880人</span>     
+                                            <span>￥998</span>    
+                                           </div>
+                                        </div>
+                                        <div class="img">
+                                                <img src="./img/index/hover_img.jpg" alt="">
+                                                <div class="desc_wrap">
+                                                <span>一招搞定JS</span>
+                                                <span>实战  基础   880人</span>     
+                                                <span>￥998</span>    
+                                               </div>
+                                            </div>
+                                            <div class="img">
+                                                    <img src="./img/index/hover_img.jpg" alt="">
+                                                    <div class="desc_wrap">
+                                                    <span>一招搞定JS</span>
+                                                    <span>实战  基础   880人</span>     
+                                                    <span>￥998</span>    
+                                                   </div>
+                                                </div>
+                                                <div class="img">
+                                                        <img src="./img/index/hover_img.jpg" alt="">
+                                                        <div class="desc_wrap">
+                                                        <span>一招搞定JS</span>
+                                                        <span>实战  基础   880人</span>     
+                                                        <span>￥998</span>    
+                                                       </div>
+                                                    </div>
+                            </div>
+                            </div>
+                        </div>
+           </div>
+           <div class="sub hide" data-id="7">
+                <div class="hover_wrap">
+                        <div class="hover_top">
+                                  <p>基础</p>
+                                  <span class="hr"></span>
+                                  <span class="text_hover">HTML CSS JavaScript JQuery</span> 
+                                  <p>进阶</p>
+                                  <span class="hr2"></span>
+                                  <span class="text_hover">Html5 CSS3 Node.js AngularJS Bootstrap React Sass/Less Vue.js WebApp</span>
+                        </div>
+                        <div class="hover_bottom">
+                            <div class="img_wrap">
+                                <div class="img">
+                                    <img src="./img/index/hover_img.jpg" alt="">
+                                    <div class="desc_wrap">
+                                    <span>一招搞定JS</span>
+                                    <span>实战  基础   880人</span>     
+                                    <span>￥998</span>    
+                                   </div>
+                                </div>
+                                <div class="img">
+                                        <img src="./img/index/hover_img.jpg" alt="">
+                                        <div class="desc_wrap">
+                                        <span>一招搞定JS</span>
+                                        <span>实战  基础   880人</span>     
+                                        <span>￥998</span>    
+                                       </div>
+                                    </div>
+                                    <div class="img">
+                                            <img src="./img/index/hover_img.jpg" alt="">
+                                            <div class="desc_wrap">
+                                            <span>一招搞定JS</span>
+                                            <span>实战  基础   880人</span>     
+                                            <span>￥998</span>    
+                                           </div>
+                                        </div>
+                                        <div class="img">
+                                                <img src="./img/index/hover_img.jpg" alt="">
+                                                <div class="desc_wrap">
+                                                <span>一招搞定JS</span>
+                                                <span>实战  基础   880人</span>     
+                                                <span>￥998</span>    
+                                               </div>
+                                            </div>
+                                            <div class="img">
+                                                    <img src="./img/index/hover_img.jpg" alt="">
+                                                    <div class="desc_wrap">
+                                                    <span>一招搞定JS</span>
+                                                    <span>实战  基础   880人</span>     
+                                                    <span>￥998</span>    
+                                                   </div>
+                                                </div>
+                                                <div class="img">
+                                                        <img src="./img/index/hover_img.jpg" alt="">
+                                                        <div class="desc_wrap">
+                                                        <span>一招搞定JS</span>
+                                                        <span>实战  基础   880人</span>     
+                                                        <span>￥998</span>    
+                                                       </div>
+                                                    </div>
+                            </div>
+                            </div>
+                        </div>
+           </div>
+           </div>
+           </div>
+
+           <div class="banner_middle">
+                <div class="layui-carousel" id="test1">
+                        <div carousel-item>
+                          <div><img src="./img/common/banner1.jpg" alt=""></div>
+                          <div><img src="./img/common/banner2.jpg" alt=""></div>
+                          <div><img src="./img/common/banner3.jpg" alt=""></div>
+                          <div><img src="./img/common/banner4.jpg" alt=""></div>
+                          <div><img src="./img/common/banner5.jpg" alt=""></div>
+                          <div><img src="./img/common/banner6.jpg" alt=""></div>
+                        </div>
+                      </div>
+           </div>
+           <div class="banner_bottom">
+                                    <div><i class="icon_1"></i>
+                                    <p>web前端攻城狮</p>
+                                    <span>互联网时代最火爆技术</span>
+                                    </div>
+                                    <div><i class="icon_2"></i>
+                                        <p>JAVA攻城狮</p>
+                                        <span>综合就业排名第一</span>
+                                        </div>
+                                        <div><i class="icon_3"></i>
+                                            <p>Android攻城狮</p>
+                                            <span>移动设备市场份额第一</span>
+                                            </div>
+                                            <div><i class="icon_4"></i>
+                                                <p>PHP攻城狮</p>
+                                                <span>世界上最好的语言：）</span>
+                                                </div>
+                                                <div><i class="icon_5"></i>
+                                                    <p>IOS攻城狮</p>
+                                                    <span>可能是世界上最好的系统</span>
+                                                    </div>
+                                                    
+                </div>
+       </div>
+   </div>
+<div class="container_curse ">
+        <div class="title">
+            <i class="icon_left"></i><span>精/选/好/课</span><i class="icon_right"></i>
+        </div>
+        <div class="curse-box">
+                 <i>
+                     <img src="./img/index/curse.jpg" alt="">
+                 </i>
+                 <span class="text_top">全网最热Python3入门+进阶&nbsp;更快实际上手</span>
+                 <p class="text_middle">实战&nbsp;初级 <i class="layui-icon layui-icon-user" style="font-size: 13px">4396 </i> </p>
+                 <p class="text_footer">￥336</p>
+        </div>
+        <div class="curse-box">
+                <i>
+                    <img src="./img/index/curse1.jpg" alt="">
+                </i>
+                <span class="text_top">玩转数据结构 从入门到进阶，视频在手，天下我有</span>
+                <p class="text_middle">实战&nbsp;初级 <i class="layui-icon layui-icon-user" style="font-size: 13px">4396 </i> </p>
+                <p class="text_footer">￥336</p>
+       </div>
+       <div class="curse-box">
+            <i>
+                <img src="./img/index/curse2.jpg" alt="">
+            </i>
+            <span class="text_top">学习Scale 进击大数据Spark生态圈</span>
+                 <p class="text_middle">实战&nbsp;初级 <i class="layui-icon layui-icon-user" style="font-size: 13px">4396 </i> </p>
+                 <p class="text_footer">￥336</p>
+            </div>
+            <div class="curse-box">
+                    <i>
+                        <img src="./img/index/curse3.jpg" alt="">
+                    </i>
+                    <span class="text_top">React Native技术精讲与高质量上线APP开发</span>
+                 <p class="text_middle">实战&nbsp;初级 <i class="layui-icon layui-icon-user" style="font-size: 13px">4396 </i> </p>
+                 <p class="text_footer">￥336</p>
+                    </div>
+                    <div class="curse-box">
+                            <i>
+                                <img src="./img/index/curse4.jpg" alt="">
+                            </i>
+                            <span class="text_top">Vue2.5开发去哪儿网App从零基础入门到实战项目</span>
+                 <p class="text_middle">实战&nbsp;初级 <i class="layui-icon layui-icon-user" style="font-size: 13px">4396 </i> </p>
+                 <p class="text_footer">￥336</p>
+                            </div>
+            
+    </div>
+         <div class="container_curse container_curse-user">
+            <div class="title">
+                <i class="icon_left"></i><span>精/选/手/记/及/猿/问</span><i class="icon_right"></i>
+            </div>
+           <div class="user_box_wrap">
+                 <div class="user_box user_box_1">
+                        <i class="layui-icon layui-icon-note" style="font-size: 18px;">猿记笔记</i>
+                        <p>论如何学好前端开发</p>
+                        <p>如何系统快速学习区块链技术 区块链未来3到5年应该会出现行业井喷式发展，相应所需的人才必定水涨船高，每一个开发人员都不应该错过这样的机会。 区块链涉及的技术很多，很多开发人员看了一些资料后，感觉好像懂了，又好像没懂。 如何系统快速的学习区块链技术，是很多想从事区块链开发的程序员的一个问题，我们来一起讨论下，希望可以帮助更多的人掌握区块链开发技术。 为什么学习区块链技术 找到一份高薪工作 随着区块链...</p>
+                 </div>
+                 <div class="user_box user_box_2">
+                        <i class="layui-icon layui-icon-note" style="font-size: 18px;">猿记笔记</i>
+                        <p>论如何学好前端开发</p>
+                        <p>如何系统快速学习区块链技术 区块链未来3到5年应该会出现行业井喷式发展，相应所需的人才必定水涨船高，每一个开发人员都不应该错过这样的机会。 区块链涉及的技术很多，很多开发人员看了一些资料后，感觉好像懂了，又好像没懂。 如何系统快速的学习区块链技术，是很多想从事区块链开发的程序员的一个问题，我们来一起讨论下，希望可以帮助更多的人掌握区块链开发技术。 为什么学习区块链技术 找到一份高薪工作 随着区块链...</p>
+                    </div>
+                    <div class="user_box user_box_3">
+                            <i class="layui-icon layui-icon-note" style="font-size: 18px;">猿记笔记</i>
+                            <p>论如何学好前端开发</p>
+                            <p>如何系统快速学习区块链技术 区块链未来3到5年应该会出现行业井喷式发展，相应所需的人才必定水涨船高，每一个开发人员都不应该错过这样的机会。 区块链涉及的技术很多，很多开发人员看了一些资料后，感觉好像懂了，又好像没懂。 如何系统快速的学习区块链技术，是很多想从事区块链开发的程序员的一个问题，我们来一起讨论下，希望可以帮助更多的人掌握区块链开发技术。 为什么学习区块链技术 找到一份高薪工作 随着区块链...</p>
+                        </div>
+                        <div class="user_box user_box_4">
+                                <i class="layui-icon layui-icon-note" style="font-size: 18px;">猿记笔记</i>
+                                <p>论如何学好前端开发</p>
+                                <p>如何系统快速学习区块链技术 区块链未来3到5年应该会出现行业井喷式发展，相应所需的人才必定水涨船高，每一个开发人员都不应该错过这样的机会。 区块链涉及的技术很多，很多开发人员看了一些资料后，感觉好像懂了，又好像没懂。 如何系统快速的学习区块链技术，是很多想从事区块链开发的程序员的一个问题，我们来一起讨论下，希望可以帮助更多的人掌握区块链开发技术。 为什么学习区块链技术 找到一份高薪工作 随着区块链...</p>
+                            </div>
+                            <div class="user_box user_box_5">
+                                    <i class="layui-icon layui-icon-note" style="font-size: 18px;">猿记笔记</i>
+                                    <p>论如何学好前端开发</p>
+                                    <p>如何系统快速学习区块链技术 区块链未来3到5年应该会出现行业井喷式发展，相应所需的人才必定水涨船高，每一个开发人员都不应该错过这样的机会。 区块链涉及的技术很多，很多开发人员看了一些资料后，感觉好像懂了，又好像没懂。 如何系统快速的学习区块链技术，是很多想从事区块链开发的程序员的一个问题，我们来一起讨论下，希望可以帮助更多的人掌握区块链开发技术。 为什么学习区块链技术 找到一份高薪工作 随着区块链...</p>
+                                </div>
+           </div>   
+        </div>
+        <div class="elite_wrap">
+            <div class="elite">
+                    <div class="title">
+                            <i class="icon_left"></i><span>名/师/讲/堂</span><i class="icon_right"></i>
+                        </div>
+                        
+                        <div class="elite_box">
+                                <i class="touxiang">
+                                    <img src="./img/common/_B9$(4ONGCDN(S4LXAE0MPR.png" alt="">
+                                </i>
+                                <span class="name">
+                                    胡辉
+                                </span>
+                                <span class="profess">
+                                    学生
+                                </span>
+                                <span class="text_desc">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sed modi possimus. Explicabo, ullam voluptatum pariatur commodi cumque eius accusantium adipisci magnam doloribus veritatis ut molestiae cupiditate nulla deleniti ipsum!
+                                </span>
+                            </div>
+                        <div class="elite_box">
+                                <i class="touxiang">
+                                    <img src="./img/common/_B9$(4ONGCDN(S4LXAE0MPR.png" alt="">
+                                </i>
+                                <span class="name">
+                                    胡辉
+                                </span>
+                                <span class="profess">
+                                    学生
+                                </span>
+                                <span class="text_desc">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sed modi possimus. Explicabo, ullam voluptatum pariatur commodi cumque eius accusantium adipisci magnam doloribus veritatis ut molestiae cupiditate nulla deleniti ipsum!
+                                </span>
+                            </div>
+                            <div class="elite_box">
+                                    <i class="touxiang">
+                                        <img src="./img/common/_B9$(4ONGCDN(S4LXAE0MPR.png" alt="">
+                                    </i>
+                                    <span class="name">
+                                        胡辉
+                                    </span>
+                                    <span class="profess">
+                                        学生
+                                    </span>
+                                    <span class="text_desc">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sed modi possimus. Explicabo, ullam voluptatum pariatur commodi cumque eius accusantium adipisci magnam doloribus veritatis ut molestiae cupiditate nulla deleniti ipsum!
+                                    </span>
+                                </div>
+                                <div class="elite_box">
+                                        <i class="touxiang">
+                                            <img src="./img/common/_B9$(4ONGCDN(S4LXAE0MPR.png" alt="">
+                                        </i>
+                                        <span class="name">
+                                            胡辉
+                                        </span>
+                                        <span class="profess">
+                                            学生
+                                        </span>
+                                        <span class="text_desc">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sed modi possimus. Explicabo, ullam voluptatum pariatur commodi cumque eius accusantium adipisci magnam doloribus veritatis ut molestiae cupiditate nulla deleniti ipsum!
+                                        </span>
+                                    </div>
+                                    <div class="elite_box">
+                                            <i class="touxiang">
+                                                <img src="./img/common/_B9$(4ONGCDN(S4LXAE0MPR.png" alt="">
+                                            </i>
+                                            <span class="name">
+                                                胡辉
+                                            </span>
+                                            <span class="profess">
+                                                学生
+                                            </span>
+                                            <span class="text_desc">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sed modi possimus. Explicabo, ullam voluptatum pariatur commodi cumque eius accusantium adipisci magnam doloribus veritatis ut molestiae cupiditate nulla deleniti ipsum!
+                                            </span>
+                                        </div>
+            </div>
+        </div>
+        <div class="start_wrap">
+                <div class="start">
+                        <div class="title">
+                                <i class="icon_left"></i><span>屌/炸/天/全/明/星</span><i class="icon_right"></i>
+                            </div>
+                            <div class="tip_wrap">
+                                <div class="tip_middle">
+                                        <div class="tip">
+                                            <div id="tip_1">
+                                                <img src="./img/tip/1.jpg" alt="">
+                                                <div class="tip_hidden">
+                                                    <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                    <span class="cur">◆</span>
+                                                 </div>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                         <div class="tip">
+                                                <div  id="tip_2">
+                                                    <img src="./img/tip/2.jpg" alt="">
+                                                    <div class="tip_hidden">
+                                                        <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                        <span class="cur">◆</span>
+                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="tip">
+                                                    <div  id="tip_3">
+                                                        <img src="./img/tip/3.jpg" alt="">
+                                                        <div class="tip_hidden">
+                                                            <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                            <span class="cur">◆</span>
+                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tip">
+                                                        <div  id="tip_4">
+                                                            <img src="./img/tip/4.jpg" alt="">
+                                                            <div class="tip_hidden">
+                                                                <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                <span class="cur">◆</span>
+                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tip">
+                                                            <div  id="tip_5">
+                                                                <img src="./img/tip/5.jpg" alt="">
+                                                                <div class="tip_hidden">
+                                                                    <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                    <span class="cur">◆</span>
+                                                                 </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tip">
+                                                                <div  id="tip_6">
+                                                                    <img src="./img/tip/6.jpg" alt="">
+                                                                    <div class="tip_hidden">
+                                                                        <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                        <span class="cur">◆</span>
+                                                                     </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tip">
+                                                                    <div  id="tip_7">
+                                                                        <img src="./img/tip/7.jpg" alt="">
+                                                                        <div class="tip_hidden">
+                                                                            <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                            <span class="cur">◆</span>
+                                                                         </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tip">
+                                                                        <div  id="tip_8">
+                                                                            <img src="./img/tip/8.jpg" alt="">
+                                                                            <div class="tip_hidden">
+                                                                                <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                <span class="cur">◆</span>
+                                                                             </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tip">
+                                                                            <div  id="tip_9">
+                                                                                <img src="./img/tip/9.jpg" alt="">
+                                                                                <div class="tip_hidden">
+                                                                                    <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                    <span class="cur">◆</span>
+                                                                                 </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="tip">
+                                                                                <div  id="tip_10">
+                                                                                    <img src="./img/tip/10.jpg" alt="">
+                                                                                    <div class="tip_hidden">
+                                                                                        <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                        <span class="cur">◆</span>
+                                                                                     </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="tip tip-margin" id="">
+                                                                                    <div  id="tip_10" class="">
+                                                                                        <img src="./img/tip/10.jpg" alt="">
+                                                                                        <div class="tip_hidden">
+                                                                                            <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                            <span class="cur">◆</span>
+                                                                                         </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="tip">
+                                                                                        <div  id="tip_10">
+                                                                                            <img src="./img/tip/10.jpg" alt="">
+                                                                                            <div class="tip_hidden">
+                                                                                                <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                                <span class="cur">◆</span>
+                                                                                             </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="tip">
+                                                                                            <div  id="tip_10">
+                                                                                                <img src="./img/tip/10.jpg" alt="">
+                                                                                                <div class="tip_hidden">
+                                                                                                    <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                                    <span class="cur">◆</span>
+                                                                                                 </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tip">
+                                                                                                <div  id="tip_10">
+                                                                                                    <img src="./img/tip/10.jpg" alt="">
+                                                                                                    <div class="tip_hidden">
+                                                                                                        <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                                        <span class="cur">◆</span>
+                                                                                                     </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="tip">
+                                                                                                    <div  id="tip_10">
+                                                                                                        <img src="./img/tip/10.jpg" alt="">
+                                                                                                        <div class="tip_hidden">
+                                                                                                            <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                                            <span class="cur">◆</span>
+                                                                                                         </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="tip">
+                                                                                                        <div  id="tip_10">
+                                                                                                            <img src="./img/tip/10.jpg" alt="">
+                                                                                                            <div class="tip_hidden">
+                                                                                                                <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                                                <span class="cur">◆</span>
+                                                                                                             </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tip">
+                                                                                                            <div  id="tip_10">
+                                                                                                                <img src="./img/tip/10.jpg" alt="">
+                                                                                                                <div class="tip_hidden">
+                                                                                                                    <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                                                    <span class="cur">◆</span>
+                                                                                                                 </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="tip">
+                                                                                                                <div  id="tip_10">
+                                                                                                                    <img src="./img/tip/10.jpg" alt="">
+                                                                                                                    <div class="tip_hidden">
+                                                                                                                        <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                                                        <span class="cur">◆</span>
+                                                                                                                     </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="tip">
+                                                                                                                    <div  id="tip_10">
+                                                                                                                        <img src="./img/tip/10.jpg" alt="">
+                                                                                                                        <div class="tip_hidden">
+                                                                                                                            <p>最棒的前端开发人员，爱思考，热爱新技术。</p> 
+                                                                                                                            <span class="cur">◆</span>
+                                                                                                                         </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            </div>
+
+                                                                          
+                                        </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="list">
+                    <ul>
+                        <li><a href="#">企业合作</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">讲师招募</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">意见反馈</a></li>
+                        <li><a href="#">慕课大学</a></li>
+                        <li><a href="#">友情链接</a></li>
+                    </ul>
+                    <span>© 2018 imooc.com  京ICP备 12003892号-11</span>
+                    <div class="icon_share">
+                            <i class="weixin"></i>
+                        <span>微信分享</span></div>
+                    <div class="icon_share">
+                                <i class="xinlang"> </i>
+                            <span>微博分享</span></div>
+                </div>
+               </div>
+            </footer>
+      <div class="fixed_tab">
+        <a href="#"><i class="layui-icon layui-icon-about" style="font-size: 26px;"></i><span>意见反馈</span></a>
+        <a href="#"><i class="layui-icon layui-icon-chat" style="font-size: 26px;"></i><span>常见问题</span></a>
+        <a class="hover_a_1" href="#"><i id="fixed_1" class="layui-icon layui-icon-download-circle" style="font-size: 26px;"></i><span>APP下载</span>
+              <div class="fixed_1_hidden">
+                  <img src="./img/common/images/elevator_06.png" alt="">
+              </div></a>
+        <a class="hover_a_2" href="#"><i id="fixed_2" class="layui-icon layui-icon-headset" style="font-size: 26px;"></i><span>官方微信</span>
+            <div class="fixed_2_hidden">
+        <img src="./img/common/images/elevator_03.jpg" alt="">
+            </div></a>
+      </div>         
+</body>
+</html>
